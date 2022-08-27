@@ -53,7 +53,7 @@ public class BombaComb {
         Scanner s = new Scanner(System.in);
         int tipoComb = s.nextInt();
 
-        while(qntComb != 0){
+        while(true){
             
             if(tipoComb == 1){
                 String nome = "Gasolina";
